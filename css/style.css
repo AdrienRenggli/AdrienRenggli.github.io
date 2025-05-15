@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    padding-top: 100px; /* Add padding to account for the fixed header */
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    height: 70px;
+    border-bottom: #e8491d 3px solid;
+    position: fixed; /* Make the header fixed */
+    top: 0; /* Stick to the top */
+    width: 100%; /* Span the full width */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+header li {
+    display: inline;
+    padding: 0 20px 0 0;
+}
+header #branding {
+    float: left;
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+.section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #e6e6e6;
+}
+.section h2 {
+    margin-top: 0;
+}
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}

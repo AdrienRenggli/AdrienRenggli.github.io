@@ -1,0 +1,19 @@
+#backToTopBtn {
+    display: none; /* Le bouton est masqué par défaut */
+    position: fixed; /* Position fixe pour que le bouton reste visible même lors du défilement */
+    bottom: 20px; /* Distance depuis le bas de la fenêtre */
+    right: 30px; /* Distance depuis la droite de la fenêtre */
+    z-index: 99; /* Assure que le bouton est au-dessus des autres éléments */
+    border: none; /* Pas de bordure */
+    outline: none; /* Pas de contour */
+    background-color: #555; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    cursor: pointer; /* Curseur de souris en forme de main */
+    padding: 15px; /* Espacement interne */
+    border-radius: 10px; /* Coins arrondis */
+    font-size: 18px; /* Taille de la police */
+}
+
+#backToTopBtn:hover {
+    background-color: #333; /* Couleur de fond au survol */
+}
