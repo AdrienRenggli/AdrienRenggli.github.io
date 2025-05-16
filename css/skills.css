@@ -32,7 +32,7 @@
 .skill-card li {
     margin: 0.5em 0;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 0.5em;
 }
 
@@ -40,4 +40,13 @@
 .skill-card img.icon-img {
     width: 20px;
     height: 20px;
+}
+
+li > .bullet-icon,
+li > .bullet-svg,
+li > .bullet-emoji {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;         /* empêche l'icône de rétrécir */
+    margin-top: 2px;        /* optionnel, ajuste l’alignement */
 }
