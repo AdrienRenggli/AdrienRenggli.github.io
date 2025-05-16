@@ -28,4 +28,4 @@ Ce site web est conçu pour offrir une vue d'ensemble de mon parcours profession
 
 Merci de visiter mon CV en ligne !
 
-Aux curieux qui liront ceci, sachez que, pour le moment, je ne maîtrise ni l'HTML, ni le JavaScript, ni le CSS. J'ai donc fait appel à Le Chat de Mistral AI pour m'aider à réaliser ce site. Grâce à cette expérience, j'en ai appris beaucoup.
+Aux curieux qui liront ceci, sachez que, pour le moment, je ne maîtrise ni l'HTML, ni le JavaScript, ni le CSS. J'ai donc fait appel à Le Chat de Mistral AI et ChatGPT pour m'aider à réaliser ce site. Grâce à cette expérience, j'en ai appris beaucoup.
