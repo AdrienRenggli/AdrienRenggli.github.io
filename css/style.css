@@ -9,7 +9,7 @@ body {
 .container {
     width: 80%;
     margin: auto;
-    overflow: hidden;
+    overflow: visible;
 }
 header {
     background: #35424a;
@@ -60,4 +60,14 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 20px;
+}
+
+.custom-link {
+    color: inherit;        /* même couleur que le texte environnant */
+    text-decoration: underline; /* souligné */
+    text-decoration-thickness: 1px; /* optionnel : plus fin */
+}
+
+.custom-link:hover {
+    color: #007BFF; /* optionnel : un peu de couleur au survol */
 }

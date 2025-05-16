@@ -1,0 +1,19 @@
+.pdf-link-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 14px;
+    background-color: #d9534f;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.pdf-link-btn i {
+    margin-right: 6px;
+}
+
+.pdf-link-btn:hover {
+    background-color: #c9302c;
+}

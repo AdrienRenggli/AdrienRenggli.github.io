@@ -1,0 +1,19 @@
+.yt-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #e8491d;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.yt-link:hover {
+    color: #ff0000;
+}
+
+.yt-link i {
+    font-size: 1em;
+}
+
+

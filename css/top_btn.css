@@ -12,6 +12,7 @@
     padding: 15px; /* Espacement interne */
     border-radius: 10px; /* Coins arrondis */
     font-size: 18px; /* Taille de la police */
+    font-weight: bold;
 }
 
 #backToTopBtn:hover {

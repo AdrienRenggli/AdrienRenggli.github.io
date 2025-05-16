@@ -1,0 +1,27 @@
+.skill-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.skill-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    background-color: #f0f0f0;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.skill-list i {
+    font-size: 18px;
+    color: #333;
+}
+
+.icon-img {
+    width: 20px;
+    height: 20px;
+}

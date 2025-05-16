@@ -1,0 +1,61 @@
+.timeline-entry {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5em;
+}
+
+.timeline-icon {
+    font-size: 1.8em;
+    margin-right: 1em;
+    color: #35424a;
+}
+
+.timeline-content {
+    background-color: #fff;
+    padding: 1em;
+    border-left: 5px solid #35424a;
+    border-radius: 8px;
+    flex: 1;
+    transition: 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.timeline-entry {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-in-out;
+}
+
+.timeline-entry.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.status {
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #777;
+    margin-left: 0.5em;
+}
+
+.badge {
+    background-color: #e8491d;
+    color: white;
+    font-size: 0.75em;
+    padding: 2px 6px;
+    border-radius: 12px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.timeline-content h4 {
+    margin-bottom: 0.3em;
+}
+
+.timeline-content p {
+    margin-top: 0.3em;
+}
+
+.timeline-content:hover {
+    transform: translateY(-4px);
+}

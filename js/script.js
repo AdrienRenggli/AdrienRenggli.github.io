@@ -56,3 +56,16 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Add an animation to the sub sections
+const entries = document.querySelectorAll('.timeline-entry');
+
+const observer = new IntersectionObserver(entriesList => {
+    entriesList.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('appear');
+        }
+    });
+});
+
+entries.forEach(entry => observer.observe(entry));
