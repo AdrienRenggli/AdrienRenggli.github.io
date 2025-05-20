@@ -1,0 +1,25 @@
+.link-btn {
+    display: inline-flex;
+    align-items: center; /* Aligne verticalement l'icône et le texte */
+    justify-content: center;
+    margin-top: 10px;
+    padding: 8px 14px;
+    background-color: #d9534f;
+    color: #fff; /* Texte du bouton en blanc */
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.link-btn i {
+    color: #fff !important; /* Icône en blanc */
+    font-size: 1.2em;
+    margin-right: 6px;
+    margin-top: 5px;
+}
+
+
+.link-btn:hover {
+    background-color: #c9302c;
+}
