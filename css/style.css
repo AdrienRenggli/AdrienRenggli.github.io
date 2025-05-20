@@ -6,11 +6,13 @@ body {
     color: #333;
     padding-top: 100px; /* Add padding to account for the fixed header */
 }
+
 .container {
     width: 80%;
     margin: auto;
     overflow: visible;
 }
+
 header {
     background: #35424a;
     color: #ffffff;
@@ -22,38 +24,47 @@ header {
     width: 100%; /* Span the full width */
     z-index: 1000; /* Ensure it stays above other content */
 }
+
 header a {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
 }
+
 header ul {
     padding: 0;
     list-style: none;
 }
+
 header li {
     display: inline;
     padding: 0 20px 0 0;
 }
+
 header #branding {
     float: left;
 }
+
 header #branding h1 {
     margin: 0;
 }
+
 header nav {
     float: right;
     margin-top: 10px;
 }
+
 .section {
     padding: 20px;
     margin-bottom: 20px;
     background: #e6e6e6;
 }
+
 .section h2 {
     margin-top: 0;
 }
+
 footer {
     background: #35424a;
     color: #ffffff;
@@ -63,11 +74,29 @@ footer {
 }
 
 .custom-link {
-    color: inherit;        /* même couleur que le texte environnant */
-    text-decoration: underline; /* souligné */
-    text-decoration-thickness: 1px; /* optionnel : plus fin */
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
 }
 
 .custom-link:hover {
-    color: #007BFF; /* optionnel : un peu de couleur au survol */
+    color: #007BFF;
+}
+
+@media (max-width: 385px) {
+    header #branding h1 .highlight::before {
+        content: "RENGGLI";
+        visibility: visible;
+        display: inline-block;
+    }
+
+    header #branding h1 .highlight {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 270px) {
+    header #branding h1 .highlight::before {
+        content: "";
+    }
 }
