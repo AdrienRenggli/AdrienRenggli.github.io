@@ -1,3 +1,4 @@
+/** last_update.js */
 // Get the date of the last commit for the last update
 fetch('https://api.github.com/repos/AdrienRenggli/AdrienRenggli.github.io/commits?per_page=1')
     .then(response => response.json())

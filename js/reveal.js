@@ -1,3 +1,4 @@
+/** reveal.js */
 // Calcul mon âge en fonction de la date du jour.
 var today = new Date();
 var birthDate = new Date(2004, 3, 2);   // Comme ça ne va jamais changer, NOMBRE MAGIQUE !!!

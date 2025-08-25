@@ -1,3 +1,5 @@
+/** script.js */
+
 // Obtenir le bouton
 var backToTopBtn = document.getElementById("backToTopBtn");
 
