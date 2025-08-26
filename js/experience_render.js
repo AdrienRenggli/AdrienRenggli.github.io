@@ -6,11 +6,12 @@ function renderExperience() {
         <div class="timeline-entry">
             <div class="timeline-icon"><i class="${entry.icon}"></i></div>
             <div class="timeline-content">
-            <h3>${entry.enterprise}</h3>
-            <p><strong>${entry.time} | ${entry.place}</strong></p>
-            <ul class="icon-list">
-                ${entry.jobs.map(j => `<li>${j}</li>`).join("")}
-            </ul>
+                <h3>${entry.enterprise}</h3>
+                <p><strong>${entry.time} | ${entry.place}</strong></p>
+                <ul class="icon-list">
+                    ${entry.jobs.map(j => `<li>${j}</li>`).join("")}
+                </ul>
+            </div>
         </div>
     `).join("");
 }
