@@ -10,7 +10,7 @@ function renderEducation() {
                     ${entry.badge ? `<span class="badge">${entry.badge}</span>` : ""}
                     ${entry.status ? `<span class="status">${entry.status}</span>` : ""}
                 </h3>
-                <p><strong>${entry.date}</strong></p>
+                <p><strong>${entry.date} | ${entry.place}</strong></p>
 
                 ${entry.coursesComputer ? `
                     <h4>Cours en Informatique</h4>
