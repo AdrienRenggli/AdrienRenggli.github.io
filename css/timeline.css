@@ -1,7 +1,9 @@
 .timeline-entry {
-    display: flex;
-    align-items: flex-start;
+    align-items: align;
     margin-bottom: 1.5em;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-in-out;
 }
 
 .timeline-icon {
@@ -18,12 +20,6 @@
     flex: 1;
     transition: 0.2s;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
-
-.timeline-entry {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: all 0.5s ease-in-out;
 }
 
 .timeline-entry.appear {
