@@ -5,9 +5,9 @@ const experience = [
         time:"Été 2025",
         place: "Coppet, VD",
         jobs: [
-            "Entretiens des espaces extérieur",
-            "Entretiens de terrains de football",
-            "Collecte de déchets"
+            "Entretiens et nettoyage des espaces extérieur",
+            "Petits travaux de maintenance et remise en ordre",
+            "Collecte et gestion des déchets"
         ]
     },
     {
