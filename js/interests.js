@@ -12,7 +12,7 @@ const interests = [
     {
         icon: "fas fa-cubes",
         title: "Maquettisme",
-        description: "Construction de maquettes, précision, patience"
+        description: "Construction de maquettes, précision, patience, impression 3D"
     },
     {
         src: "images/plane-train.svg",
