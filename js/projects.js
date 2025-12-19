@@ -8,6 +8,14 @@ const projects = [
         linkText: "Consulter le code source"
     },
     {
+        image: "images/swisstravel.png",
+        title: "SwissTravel",
+        description: "Une application android pour organiser un voyage en Suisse (projet de cours 2025)",
+        linkIcon: "fa-brands fa-android",
+        link: "https://github.com/SwEnt-Team10/SwissTravel/releases",
+        linkText: "Télécharger l'app"
+    },
+    {
         icon: "fas fa-archive",
         title: "WebApp Showcase",
         description: "Explorez une sélection de mini-jeux et d'applications web.",

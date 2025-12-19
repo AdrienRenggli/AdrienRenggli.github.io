@@ -4,7 +4,7 @@ function renderProjects() {
 
     container.innerHTML = projects.map(card => `
         <div class="card">
-            <i class="${card.icon} fa-2x"></i>
+            ${card.image ? `<img src="${card.image}" alt="${card.title}" class="card-img">` : `<i class="${card.icon} fa-2x"></i>`}
             <h3>${card.title}</h3>
             <p>${card.description}</p>
             ${card.link ? `<a href="${card.link}" target="_blank" class="link-btn">
