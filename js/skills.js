@@ -7,7 +7,8 @@ const skills = [
             { icon: "fab fa-python", text: "Python" },
             { icon: "fab fa-cuttlefish", text: "C" },
             { icon: "fas fa-microchip", text: "Assembleur RISC-V" },
-            { svg: "images/scala.svg", text: "Scala" }
+            { svg: "images/scala.svg", text: "Scala" },
+            { svg: "images/kotlin.svg", text: "Kotlin" }
         ]
     },
     {

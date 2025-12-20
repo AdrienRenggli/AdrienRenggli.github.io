@@ -13,12 +13,16 @@ const education = [
             { icon: "fas fa-microchip", text: "Architecture matérielle" },
             { icon: "fas fa-server", text: "Systèmes informatiques" },
             { icon: "fas fa-users", text: "Interaction personne-système" },
-            { icon: "fas fa-robot", text: "Apprentissage automatique" }
+            { icon: "fas fa-robot", text: "Apprentissage automatique" },
+            { icon: "fas fa-user-shield", text: "Sécurité et confidentialité informatique" },
+            { icon: "fas fa-leaf", text: "Logiciels responsables" },
+            { icon: "fas fa-diagram-project", text: "Création de logiciels"}
         ],
         coursesOthers: [
             { icon: "fas fa-square-root-alt", text: "Analyse" },
             { icon: "fas fa-th", text: "Algèbre linéaire" },
-            { icon: "fas fa-atom", text: "Physique (mécanique, électromagnétisme" }
+            { icon: "fas fa-atom", text: "Physique (mécanique, électromagnétisme" },
+            { icon: "fas fa-person-booth", text: "Technologies pour sociétés démocratiques"},
         ]
     },
     {
